@@ -436,9 +436,24 @@ git submodule---
 
 section13 github 잘 사용하기
 lesson 1 프로젝트와 폴더에 대한 문서
+lesson 2 풀리퀘스트와 이슈
+1. Pull request
+변경사항을 merge하기 전 리뷰를 거치기 위함
+팀원들의 동의를 거친 뒤 대상 브랜치에 적용
 
+풀 리퀘스트 사용해보기
+새로운 브랜치 생성 후 변경사항 커밋하여 푸시
+GitHub 레포지토리 페이지에서 Compare & pull request 버튼 클릭
+또는 ~ branches에서 New pull request 클릭
+메시지 작성 후 Create pull request 클릭
 
+풀 리퀘스트 검토 후 처리하기
+GitHub 레포지토리 페이지에서 Pull requests 탭 클릭
+대상 풀 리퀘스트 클릭하여 내용 검토
 
+의견이 있을 시 코멘트 달기
+반려해야 할 시 Close pull request
+승인할 시 Merge pull request
 
 
 
