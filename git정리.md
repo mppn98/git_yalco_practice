@@ -4,6 +4,17 @@ git정리
 ##Most useful git commands: 
 -https://orga.cat/posts/most-useful-git-commands
 
+git add/commit할때
+ls -a 해서 .git보이는폴더에서 명령어입력
+
+echo "# -" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin (레포짓주소)
+git push -u origin main
+
 1. staging area는 commit을 하기 전에 commit할 파일들을 골라놓는 곳입니다.
 그리고 staging area에 파일넣는 행위를 staging이라고 합니다. 
 git add 명령어로 staging 할 수 있습니다.
